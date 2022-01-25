@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "npx cucumber-js"
   },
   "author": "Reece Lau",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.5"
+  }
 }
